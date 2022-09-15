@@ -1,22 +1,86 @@
-#list
+#LIST
 mylist1=["name","age","reg.no",25]
 print(mylist1)
 
-#update
+#update LIST
 mylist1[3]="dob"
 print(mylist1)
 
-#append
+#append LIST
 mylist1.append("data")
 print(mylist1)
 
-#insert
+#insert LIST
 mylist1.insert(3,30)
 print(mylist1)
 
-#delete
+#delete LIST
 del mylist1[5]
 print(mylist1)
 
 mylist1.remove("dob")
 print(mylist1)
+
+#Indexing
+karthik=[12,"data","age",45,85]
+   #      ^    ^     ^   ^   ^
+   #      0    1     2   3   4
+   #     -5   -4    -3  -2  -1
+print(karthik[2])
+print(karthik[0])
+print(karthik[-1])
+print(karthik[-4])
+
+#TUPLE
+#EXAMPLE showing tuple is immutable
+#update -> it will throw an error, as tuple is immutable
+mytuple1[3]="ram"
+print(mytuple1)
+#simillarly it  throws error with APPEND,INSERT,DELETE.
+
+#DICTIONARY -> it has keys and values for it.
+Dict ={"name":"karthik","institution":"bharath","age":"20"}
+print(Dict)
+print(Dict["name"])
+
+#update DICTIONARY
+Dict["age"]=21
+print(Dict)
+
+#Delete DICTIONARY
+del Dict["institution"]
+print(Dict)
+
+#Append Dictionary
+Dict["city"]="chennai"
+print(Dict)
+
+#Indexing -> indexing will be similar to LIST,TUPLE,DICTIONARY,...
+karthik=[12,"data","age",45,85]
+   #      ^    ^     ^   ^   ^
+   #      0    1     2   3   4
+   #     -5   -4    -3  -2  -1
+print(karthik[2])
+print(karthik[0])
+print(karthik[-1])
+print(karthik[-4])
+print(karthik[0:2])
+print(karthik[2:5])
+print(karthik[3:100])
+print(karthik[-4:-1])
+
+#STEP INDEX
+karthik=[12,"data","age",45,85]
+   #      ^    ^     ^   ^   ^
+   #      0    1     2   3   4
+   #     -5   -4    -3  -2  -1
+print(karthik[0:5:2])
+print(karthik[0:5:3])
+print(karthik[0:5:1])
+print(karthik[0:3:2])
+print(karthik[-5:-1:2])
+print(karthik[-9:-1:2])
+print(karthik[-6::2])
+
+
+
