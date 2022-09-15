@@ -1,0 +1,22 @@
+#list
+mylist1=["name","age","reg.no",25]
+print(mylist1)
+
+#update
+mylist1[3]="dob"
+print(mylist1)
+
+#append
+mylist1.append("data")
+print(mylist1)
+
+#insert
+mylist1.insert(3,30)
+print(mylist1)
+
+#delete
+del mylist1[5]
+print(mylist1)
+
+mylist1.remove("dob")
+print(mylist1)
