@@ -82,6 +82,7 @@ print(karthik[-5:-1:2])
 print(karthik[-9:-1:2])
 print(karthik[-6::2])
 
+"""""""""This is my colaboratory link with the compilation and outputs of my code.""""""""
 https://colab.research.google.com/drive/1BJ_266Dj2VQ3Y0eA_MhYBmKHP5WBmJbE#scrollTo=ChjIBAAA7TE6&line=13&uniqifier=1
 
 
